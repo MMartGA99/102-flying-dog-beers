@@ -1,6 +1,8 @@
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
+#from dash import dcc
+#from dash import html
 import plotly.graph_objs as go
 
 ########### Define your variables
@@ -9,7 +11,7 @@ ibu_values=[35, 60, 85, 75]
 abv_values=[5.4, 7.1, 9.2, 4.3]
 color1='darkred'
 color2='orange'
-mytitle='Beer Comparison'
+mytitle='Beer Comparison - First App'
 tabtitle='beer!'
 myheading='Flying Dog Beers'
 label1='IBU'
